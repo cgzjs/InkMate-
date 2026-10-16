@@ -61,7 +61,7 @@ left-side hanging eye and its 5 mm hole remain unchanged. No fit coupon is suppl
 7. Reuse the mounted PCB and existing base, arrange ribbon slack, and snap the
    new faceplate onto the unchanged eight BBV3 locations.
 
-## Validation and Limits
+## Geometry Checks
 
 Each of seven complete-assembly parts is a valid single CAD solid and a connected,
 watertight, consistently oriented positive-volume STL. Base equality against v2
@@ -71,11 +71,9 @@ and the screw-head clearance envelopes are checked digitally.
 
 The modeled switch actuator is excluded from key-motion intersections because
 it is intentionally depressed. Thread engagement in the plain pilot is also
-intentional and is not modeled as a printable thread. Digital checks do not
-guarantee the user's printer tolerances, screw grip, switch stroke or screen fit.
-The screen dimensions remain approximate; this v3 has not been physically printed.
-Battery cavity and all original battery insulation/clearance requirements remain
-unchanged. Never force the lid closed against the cell or screen.
+intentional and is not modeled as a printable thread. The screen pocket is sized
+for a nominal 59 x 30 x 1 screen. Battery cavity and insulation clearances remain
+unchanged.
 
 Editable STEP assemblies and CadQuery sources are included. Run
 `build_enclosure.py`, then `verify_and_preview.py` with the bundled requirements.

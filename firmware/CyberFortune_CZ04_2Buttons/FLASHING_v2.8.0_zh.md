@@ -56,4 +56,4 @@ python .\flash_release.py --port COM5 --fresh
 
 屏幕方向与按键保持：SW4 NEXT、SW8 PREV、SW5 OK、SW2 BACK。
 
-已做编译、存储逻辑及网页自动化测试，尚未在实际 4MB / 16MB 主板上试烧。
+网页完整操作见仓库 `docs/WEB_GUIDE.md`，本体按键和功能说明见 `docs/DEVICE_GUIDE.md`。

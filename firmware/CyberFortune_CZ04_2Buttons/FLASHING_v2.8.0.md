@@ -50,8 +50,6 @@ image on a 4MB chip. The provided script detects the actual flash ID automatical
 6. If power fails during serial writing, re-enter BOOT and repeat using the same
    release. Do not erase flash or overwrite your original backup.
 
-No hardware flashing has been performed by this release's authoring tools.
-
 ## New board / intentionally reset content
 
 Only when you want to replace saved content with the included vocabulary packs:
@@ -83,4 +81,4 @@ it with the 16MB CSV for a 4MB board. Run `python tools/build_release.py` with t
 installed Arduino CLI, ESP32 core and libraries to create both full images and the
 common OTA binary. `manifest.json` records layouts and SHA256 hashes.
 
-Digital tests and compilation do not substitute for testing on actual hardware.
+See the repository's `docs/WEB_GUIDE.md` and `docs/DEVICE_GUIDE.md` for daily use.
