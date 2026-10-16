@@ -1,0 +1,63 @@
+{
+  "base_print.stl": {
+    "watertight": true,
+    "winding_consistent": true,
+    "positive_volume": true,
+    "connected_bodies": 1,
+    "triangles": 6524,
+    "bed_minimum_z": 0.001438469742424786
+  },
+  "button_SW2_print.stl": {
+    "watertight": true,
+    "winding_consistent": true,
+    "positive_volume": true,
+    "connected_bodies": 1,
+    "triangles": 1256,
+    "bed_minimum_z": 0.002014154801145196
+  },
+  "button_SW4_print.stl": {
+    "watertight": true,
+    "winding_consistent": true,
+    "positive_volume": true,
+    "connected_bodies": 1,
+    "triangles": 1256,
+    "bed_minimum_z": 0.002014154801145196
+  },
+  "button_SW5_print.stl": {
+    "watertight": true,
+    "winding_consistent": true,
+    "positive_volume": true,
+    "connected_bodies": 1,
+    "triangles": 1256,
+    "bed_minimum_z": 0.002014154801145196
+  },
+  "button_SW8_print.stl": {
+    "watertight": true,
+    "winding_consistent": true,
+    "positive_volume": true,
+    "connected_bodies": 1,
+    "triangles": 1256,
+    "bed_minimum_z": 0.002014154801145196
+  },
+  "front_lid_print.stl": {
+    "watertight": true,
+    "winding_consistent": true,
+    "positive_volume": true,
+    "connected_bodies": 1,
+    "triangles": 16126,
+    "bed_minimum_z": 1.0000000116860974e-07
+  },
+  "screen_retainer_print.stl": {
+    "watertight": true,
+    "winding_consistent": true,
+    "positive_volume": true,
+    "connected_bodies": 1,
+    "triangles": 3572,
+    "bed_minimum_z": -2.57171670052598e-16
+  },
+  "cad_collision_count": 0,
+  "v2_base_unchanged": true,
+  "button_motion_checks": "0..0.6 mm down, up to 0.4 mm lateral",
+  "screen_pocket_checks": "Screen translations up to 0.5 mm X/Y",
+  "retainer_insertion_checks": "0..3 mm straight approach, no square insertion slots"
+}
